@@ -1,7 +1,24 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>TraceLd, Lloyd Dilley</Authors>
+    <Company />
+    <Copyright>TraceLd, Lloyd Dilley</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/TraceLD/minestat-sharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TraceLD/minestat-sharp</RepositoryUrl>
+    <RepositoryType />
+    <PackageTags>minecraft, server, status, checker, minestat</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
