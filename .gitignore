@@ -6,3 +6,6 @@ obj/
 .idea/
 .vs/
 .vscode/
+
+# Don't include NuGet package
+*.nupkg
