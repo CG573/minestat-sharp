@@ -1,5 +1,6 @@
 MineStat
 ========
+[![Actions Status](https://github.com/TraceLD/minestat-sharp/workflows/dotnet/badge.svg)](https://github.com/TraceLD/minestat-sharp/actions)
 
 MineStat is a Minecraft server status checker.
 
