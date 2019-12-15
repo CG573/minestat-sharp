@@ -1,11 +1,22 @@
-MineStat
-========
+# MineStat
 [![Actions Status](https://github.com/TraceLD/minestat-sharp/workflows/dotnet/badge.svg)](https://github.com/TraceLD/minestat-sharp/actions)
+[![Nuget](https://img.shields.io/nuget/v/TraceLd.MineStatSharp)](https://www.nuget.org/packages/TraceLd.MineStatSharp/)
 
 MineStat is a Minecraft server status checker.
 
 You can use this library in a monitoring script to poll multiple Minecraft servers or to let
 visitors see the status of your server from their browser.
+
+**Changes compared to original MineStat**:
+
+- C# only.
+- Removed obsolete code.
+- Comes as a Class Library instead of a single `.cs` file.
+- Packaged as a NuGet package.
+
+**Link to original MineStat**:
+
+https://github.com/ldilley/minestat
 
 ### Usage example
 ```cs
